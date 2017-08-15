@@ -4,4 +4,9 @@ This is a new clo;
 anoter new thing.
 new day!!
 create a new branch!
+<<<<<<< HEAD
 & simple
+=======
+and simple
+>>>>>>> featurel
+and simple
