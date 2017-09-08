@@ -1,0 +1,33 @@
+I1118 09:18:30.104100  5466 caffe.cpp:401] Average time per layer: 
+I1118 09:18:30.104106  5466 caffe.cpp:404]      cifar	forward: 0.123937 ms.
+I1118 09:18:30.104113  5466 caffe.cpp:407]      cifar	backward: 0.00182144 ms.
+I1118 09:18:30.104120  5466 caffe.cpp:404]      conv1	forward: 2.94802 ms.
+I1118 09:18:30.104127  5466 caffe.cpp:407]      conv1	backward: 3.23718 ms.
+I1118 09:18:30.104136  5466 caffe.cpp:404]      pool1	forward: 1.36849 ms.
+I1118 09:18:30.104142  5466 caffe.cpp:407]      pool1	backward: 6.27303 ms.
+I1118 09:18:30.104149  5466 caffe.cpp:404]      relu1	forward: 0.329881 ms.
+I1118 09:18:30.104156  5466 caffe.cpp:407]      relu1	backward: 0.502458 ms.
+I1118 09:18:30.104164  5466 caffe.cpp:404]      conv2	forward: 3.81801 ms.
+I1118 09:18:30.104171  5466 caffe.cpp:407]      conv2	backward: 7.59052 ms.
+I1118 09:18:30.104179  5466 caffe.cpp:404]      relu2	forward: 0.305911 ms.
+I1118 09:18:30.104208  5466 caffe.cpp:407]      relu2	backward: 0.497113 ms.
+I1118 09:18:30.104218  5466 caffe.cpp:404]      pool2	forward: 0.371051 ms.
+I1118 09:18:30.104225  5466 caffe.cpp:407]      pool2	backward: 1.04644 ms.
+I1118 09:18:30.104233  5466 caffe.cpp:404]      conv3	forward: 1.68699 ms.
+I1118 09:18:30.104241  5466 caffe.cpp:407]      conv3	backward: 3.69392 ms.
+I1118 09:18:30.104249  5466 caffe.cpp:404]      relu3	forward: 0.0793741 ms.
+I1118 09:18:30.104257  5466 caffe.cpp:407]      relu3	backward: 0.249864 ms.
+I1118 09:18:30.104266  5466 caffe.cpp:404]      pool3	forward: 0.190411 ms.
+I1118 09:18:30.104274  5466 caffe.cpp:407]      pool3	backward: 0.538879 ms.
+I1118 09:18:30.104285  5466 caffe.cpp:404]        ip1	forward: 0.158315 ms.
+I1118 09:18:30.104291  5466 caffe.cpp:407]        ip1	backward: 0.178278 ms.
+I1118 09:18:30.104301  5466 caffe.cpp:404]        ip2	forward: 0.0660768 ms.
+I1118 09:18:30.104308  5466 caffe.cpp:407]        ip2	backward: 0.0831962 ms.
+I1118 09:18:30.104317  5466 caffe.cpp:404]       loss	forward: 0.173846 ms.
+I1118 09:18:30.104324  5466 caffe.cpp:407]       loss	backward: 0.0395981 ms.
+I1118 09:18:30.104338  5466 caffe.cpp:412] Average Forward pass: 12.1877 ms.
+I1118 09:18:30.104348  5466 caffe.cpp:414] Average Backward pass: 24.4517 ms.
+I1118 09:18:30.104359  5466 caffe.cpp:416] Average Forward-Backward: 36.6994 ms.
+I1118 09:18:30.104369  5466 caffe.cpp:418] Total Time: 1834.97 ms.
+I1118 09:18:30.104378  5466 caffe.cpp:419] *** Benchmark ends ***
+

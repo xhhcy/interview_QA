@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+set -e
+LOG=MyLog/plate-`date +%Y-%m-%d-%H-%M-%S`.log
+./build/tools/caffe train \
+    --solver=/home/xhh/caffe-master/mycar/solver.prototxt  2>&1 | tee $LOG $@

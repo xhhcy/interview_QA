@@ -1,0 +1,4 @@
+./build/examples/cpp_classification/classification.bin mychar/char_quick.prototxt mychar/char_quick_iter_4000.caffemodel.h5 mychar/char_mean.binaryproto mychar/labels.txt mychar/image/zh_yu1.jpg
+./build/examples/cpp_classification/classification.bin mychar/char_quick.prototxt mychar/char_quick_iter_4000.caffemodel.h5 mychar/char_mean.binaryproto mychar/labels.txt mychar/image/zh_zhe.jpg
+./build/examples/cpp_classification/classification.bin mychar/char_quick.prototxt mychar/char_quick_iter_4000.caffemodel.h5 mychar/char_mean.binaryproto mychar/labels.txt mychar/image/zh_hu.jpg
+./build/examples/cpp_classification/classification.bin mychar/char_quick.prototxt mychar/char_quick_iter_4000.caffemodel.h5 mychar/char_mean.binaryproto mychar/labels.txt mychar/image/5.jpg

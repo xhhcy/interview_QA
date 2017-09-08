@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+set -e
+LOG=MyLog/char-`date +%Y-%m-%d-%H-%M-%S`.log
+./build/tools/caffe time \
+    --solver=/home/xhh/caffe-master/mychar/char_quick_solver.prototxt  2>&1 | tee $LOG $@

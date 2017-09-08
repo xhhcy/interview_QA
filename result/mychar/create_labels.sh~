@@ -1,0 +1,31 @@
+#################################
+#!/bin/bash -
+#Author:xhh
+#Data :2016.11.17
+#=============get the file name ===============
+INIT_PATH="./train";
+#==============================================
+function ergodic()
+{
+  local count=0;
+  for file in `ls $1`
+     do	
+	for var in `echo $INIT_PATH"/"$file`
+	   do  
+		#count=1;
+		for p in `ls $var`
+		    do
+			local pict=`echo $INIT_PATH"/"$file"/"$p`;
+			#if [ $count -lt 100 ];then
+				#rm $pict
+			#else
+				echo $pict $count >> list.txt
+ 			#fi
+			
+		    done
+		((count=count+1));
+	  done
+  done
+}
+IFS=$'\n'
+ergodic $INIT_PATH

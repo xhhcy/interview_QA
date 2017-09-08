@@ -1,0 +1,22 @@
+共16356张图片，共用时1834.97 ms.
+Iteration 4000, loss = 0.00124074
+I1117 23:43:36.750881 24329 solver.cpp:337] Iteration 4000, Testing net (#0)
+I1117 23:43:37.309201 24329 solver.cpp:404]     Test net output #0: accuracy = 0.997
+I1117 23:43:37.309239 24329 solver.cpp:404]     Test net output #1: loss = 0.0139265 (* 1 = 0.0
+
+
+---------- Prediction for mychar/image/zh_hu.jpg ----------
+0.9134 - "zh_zhe"
+0.0630 - "zh_zang"
+0.0073 - "zh_yu1"
+0.0055 - "zh_hu"
+0.0042 - "zh_shan"
+
+---------- Prediction for mychar/image/char_21.jpg ----------
+0.9909 - "5"
+0.0090 - "B"
+0.0001 - "zh_liao"
+0.0000 - "3"
+0.0000 - "8"
+
+

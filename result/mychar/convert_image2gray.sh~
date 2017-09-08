@@ -1,0 +1,16 @@
+#################################
+#!/bin/bash -
+#Author:xhh
+#Data :2016.11.17
+#=============get the file name ===============
+INIT_PATH="./val";
+#==============================================
+function ergodic()
+{
+  for file in `find $1 -name *.jpg`
+     do
+       convert $file -colorspace Gray $file
+  done
+}
+IFS=$'\n'
+ergodic $INIT_PATH
